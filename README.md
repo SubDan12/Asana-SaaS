@@ -1,16 +1,123 @@
-# React + Vite
+# Asana Business — SaaS Marketing Website (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, multi-page **SaaS marketing website** inspired by modern productivity tools.  
+Built with a strong focus on **UI/UX, conversion flow, and real-world frontend functionality** — without a backend or dashboard.
 
-Currently, two official plugins are available:
+**Live Demo:** https://asana-saa-s.vercel.app/pricing
+**Repository:** https://github.com/aj-Baba-yaga/Asana-SaaS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project demonstrates how a modern SaaS marketing website should **look, feel, and behave** from a frontend perspective.
 
-## Expanding the ESLint configuration
+It includes:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clear product storytelling
+- Interactive pricing flow
+- Real contact form submission
+- Polished mobile & desktop UX
+- Clean component architecture
+
+This is a **frontend-only project** by design — no backend, auth, or dashboard is included.
+
+---
+
+## Pages Included
+
+- **Home** — Product overview and value proposition
+- **Features** — Detailed product capabilities and use cases
+- **Pricing** — Interactive pricing cards with plan selection
+- **About** — Mission, principles, and product philosophy
+- **Contact** — Real contact form with Formspree integration
+
+---
+
+## Key Features
+
+### Interactive Pricing Flow
+
+- Select a pricing plan (Starter / Business / Enterprise)
+- Selected plan is visually highlighted
+- Plan selection persists using `localStorage`
+- Clicking “Continue” routes users to the Contact page with the plan pre-filled
+
+### Real Contact Form (Formspree)
+
+- Connected to **Formspree** for real submissions
+- Loading, success, and error states
+- Selected pricing plan included in submission data
+- No page redirect — smooth UX
+
+### FAQ Accordion
+
+- Expand/collapse FAQ items
+- Smooth animation using Framer Motion
+- Reusable accordion component
+
+### Responsive Navigation
+
+- Desktop navbar + mobile menu
+- Active routes
+- Smooth UX across breakpoints
+
+---
+
+## Tech Stack
+
+- **React** (Vite)
+- **React Router** (client-side routing)
+- **Tailwind CSS v4**
+- **Framer Motion** (animations & accordion)
+- **Formspree** (contact form backend)
+- **Vercel** (deployment)
+
+---
+
+## Project Structure
+
+src/
+├── app/
+│ ├── AppRouter.jsx
+│ └── Layout.jsx
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── PageHeader.jsx
+│ ├── PricingCard.jsx
+│ ├── FAQAccordion.jsx
+│ ├── FeatureRow.jsx
+│ ├── TintedBand.jsx
+│ ├── FinalCTA.jsx
+│ └── motion/
+│ └── Reveal.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── Features.jsx
+│ ├── Pricing.jsx
+│ ├── About.jsx
+│ └── Contact.jsx
+│
+└── main.jsx
+
+## What This Project Demonstrates
+
+- Building **conversion-focused SaaS marketing sites**
+- Component-driven architecture
+- Managing UI state without a backend
+- Real third-party integration (Formspree)
+- Responsive & accessible design
+- Clean, scalable frontend patterns
+
+---
+
+## What This Project Does NOT Include
+
+- No authentication
+- No dashboard
+- No backend APIs
+- No payments
+
+> These were intentionally excluded to keep the project focused on **frontend excellence** and avoid fake or misleading functionality.
