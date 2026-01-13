@@ -4,7 +4,7 @@ A fully responsive, multi-page **SaaS marketing website** inspired by modern pro
 Built with a strong focus on **UI/UX, conversion flow, and real-world frontend functionality** — without a backend or dashboard.
 
 **Live Demo:** https://asana-saa-s.vercel.app/
-**Repository:** https://github.com/aj-Baba-yaga/Asana-SaaS
+**Repository:** https://github.com/SubDan12/Asana-SaaS
 
 ---
 
