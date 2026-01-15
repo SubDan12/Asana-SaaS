@@ -2,7 +2,7 @@ export default function PricingCard({ plan, selected, onSelect }) {
   const base =
     "relative overflow-visible rounded-2xl border p-8 shadow-sm transition outline-none";
 
-  // 🔥 The ONLY rule: selected card gets the dark theme
+  // The ONLY rule: selected card gets the dark theme
   const isDark = selected;
 
   const theme = isDark
