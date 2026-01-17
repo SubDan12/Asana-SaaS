@@ -10,11 +10,11 @@ Repository: https://github.com/SubDan12/Asana-SaaS
 
 ## Screenshots
 
-![About] (./screenshots/about.png)
-![Contact] (./screenshots/contact.png)
-![FAQ] (./screenshots/faq.png)
-![Hero] (./screenshots/hero.png)
-![Pricing] (./screenshots/pricing.png)
+![About](./screenshots/about.png)
+![Contact](./screenshots/contact.png)
+![FAQ](./screenshots/faq.png)
+![Hero](./screenshots/hero.png)
+![Pricing](./screenshots/pricing.png)
 
 ---
 
